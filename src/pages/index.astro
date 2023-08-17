@@ -1,4 +1,6 @@
 ---
+import { Analytics } from '@vercel/analytics/react';
+
 import type { IFrontmatter } from 'astro-boilerplate-components';
 
 import { CTA } from '@/partials/CTA';
@@ -24,6 +26,7 @@ testttttttttt
 testttttttttt
 testttttttttt
 testttttttttt
+<Analytics />
 
 <Base head={{ title, description }}>
   <Hero />
